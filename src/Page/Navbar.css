@@ -1,0 +1,76 @@
+.navbar{
+    align-items: center;
+    width: 90%;
+    background-color: rgb(252, 249, 249);
+    margin-left: 60px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.menu{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-right: 25px;
+}
+
+.menu h4{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.menu h4:hover{
+    transition: all 0.3s;
+    border-bottom: 2px solid rgb(46, 48, 42);
+    color: rgb(71, 73, 66);
+}
+
+.signUp{
+    width: 150px;
+    height: 35px;
+    background-color: yellowgreen;
+    outline: none;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 10px 20px;
+    transition: all 0.3;
+    border: 1px solid transparent;
+}
+
+.signUp:hover{
+    border: 1px solid rgb(113, 204, 38);
+    transition: all 0.3;
+}
+
+.link{
+    color: rgb(71, 73, 66);
+    text-decoration: none;
+}
+
+
+
+.navbar__logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+.navbar__logo h3{
+    font-size: 25px;
+}
+
+.navbar__logo h3 span{
+    color: yellowgreen;
+}
